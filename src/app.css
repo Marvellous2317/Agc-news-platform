@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  /* Background Colors */
+  --color-primary-100: #FFFFFF;
+  --color-primary-200: #5A5A5A;
+  --color-primary-300: #D32C89;
+  --color-primary-400: #1B1B1B;
+  --color-primary-500: #999999;
+  --color-primary-600: #DDDDDD;
+  --color-primary-700: #000000;
+  --color-secondary-100: #282828;
+
+
+  --font-euclidcircular: "EuclidCircularA", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public//fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EuclidCircularA";
+  src: url("../public/fonts/Euclid-Circular-A-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EuclidCircularA";
+  src: url("../public/fonts/Euclid-Circular-A-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EuclidCircularA";
+  src: url("../public/fonts/Euclid-Circular-A-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EuclidCircularA";
+  src: url("../public/fonts/Euclid-Circular-A-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EuclidCircularA";
+  src: url("../public/fonts/Euclid-Circular-A-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--font-eucl);
+  background: var(--color-primary-100);
+  color: var(--color-secondary-100);
+}
